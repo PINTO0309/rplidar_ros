@@ -213,7 +213,7 @@ int raw_serial::waitfordata(size_t data_count, _u32 timeout, size_t * returned_s
     timeout_val.tv_sec = timeout / 1000;
     timeout_val.tv_usec = (timeout % 1000) * 1000;
 
-    time_t startTime = time(nullptr) * 1000;
+    time_t startTime = time((void*)NULL) * 1000;
 
     if ( isOpened() )
     {
