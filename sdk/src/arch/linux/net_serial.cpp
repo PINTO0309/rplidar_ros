@@ -226,7 +226,7 @@ int raw_serial::waitfordata(size_t data_count, _u32 timeout, size_t * returned_s
 
     while ( isOpened() )
     {
-        time_t now = time(nullptr) * 1000;
+        time_t now = time((void*)NULL) * 1000;
         if ((now - startTime) > timeout) {
             return ANS_TIMEOUT;
         }
