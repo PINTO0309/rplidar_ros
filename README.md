@@ -2,6 +2,7 @@
 Myself Update History
 =====================================================================
 2018.05.03 Pull requests Merged #41, #42, #43, #49, #50
+2018.05.03 The latest SDK and Firmware http://www.slamtec.com/en/Support#rplidar-a1
 
 RPLIDAR ROS package
 =====================================================================
