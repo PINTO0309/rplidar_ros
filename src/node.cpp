@@ -197,6 +197,7 @@ int main(int argc, char * argv[]) {
     nh_private.param<std::string>("serial_port", serial_port, "/dev/ttyUSB0"); 
     nh_private.param<int>("serial_baudrate", serial_baudrate, 115200);
     nh_private.param<int>("motor_pwm", motor_pwm, DEFAULT_MOTOR_PWM);
+    //nh_private.param<int>("motor_pwm", motor_pwm, MAX_MOTOR_PWM);
     nh_private.param<std::string>("frame_id", frame_id, "laser_frame");
     nh_private.param<bool>("inverted", inverted, false);
     nh_private.param<bool>("angle_compensate", angle_compensate, true);
